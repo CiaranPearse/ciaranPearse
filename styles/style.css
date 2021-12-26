@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+  background-color: #485461;
+  background-image: linear-gradient(135deg, #485461 0%, #28313b 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-nav {
+  background-color:rgba(0, 0, 0, 0.20);
+  color: white;
+  width: 100%;
+  padding: 10px 30px;
+  
+}
+
+.logo {
+  width: 50%;
+  float: left;
+}
+
+.nav {
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin: auto 0;
+}
+
+.illmagination {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.brand-font {
+  text-align: left;
+  font-family: 'Condiment', cursive;
+  font-size: 26px;
+  color: #fff;
+}
+
+.intro {
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.link {
+  padding: 0 30px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.illmag-font {
+  font-family: 'Condiment', cursive;
+  font-size: 24px;
+}
+
+.art {
+  border: 1px solid red;
+}
+
+.art-block {
+  width: 48%;
+  float: left;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.art-block-desc{
+  width: 48%;
+  float: right;
+  text-align: left;
+  border: 1px solid green;
+}
+
+.photo {
+  width: 400px;
+}
+
+
+
+/* MODAL */
+
+a.nostyle {
+  text-decoration: none;
+  color: initial;
+}
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 50%;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  transform: translate(-25%, -25%);
+  padding: 2em;
+  background: white;
+  border-radius: 10px;
+}
+.modal-window header {
+  font-weight: bold;
+}
+  
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-window:hover {
+  color: black;
+}
